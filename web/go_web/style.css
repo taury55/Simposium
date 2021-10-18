@@ -1,0 +1,141 @@
+:root {
+	--Color1: #0081d6;
+	--Color2: #003f69;
+	--Color3: #1a1a1a;
+}
+
+body {
+	font-family: 'Archivo', sans-serif;
+	font-size: 40px;
+	margin: 0;
+}
+
+a:hover, a:visited, a:link, a:active {
+	text-decoration: none;
+}
+
+.page {
+	display: grid;
+	grid-template-rows: 4em auto 2.5em;
+	grid-template-columns: auto 7em;
+	height: 100%;
+}
+
+.top-menu {
+	display: grid;
+	grid-template-columns: auto repeat(4, 6em);
+	background-color: var(--Color3);
+	grid-gap: 0.1em;
+	color: white;
+}
+
+.right-menu {
+	grid-area: 1 / 2 / span 2 / span 1;
+	background-color: var(--Color3);
+}
+
+.bot-menu {
+	grid-area: 3 / 1 / span 1 / span 2;
+	background-color: var(--Color3);
+}
+
+.logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto 0 0.5em;
+}
+
+.section {
+	height: 4em;
+	position: relative;
+	z-index: 10;
+}
+
+.section-box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	z-index: 5;
+	height: 100%;
+	width: 100%;
+}
+
+.section-info {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-shadow: 3px 3px 8px rgba(0,0,0,0.4);
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.2);
+	transition: all .5s;
+}
+
+.section-info:hover {
+	background-color: rgba(0, 0, 0, 0.0);
+}
+
+.section-name {
+	font-family: 'Encode Sans SC', sans-serif;
+	font-size: 36px;
+	margin: 0 0 0.2em 0;
+}
+
+.section-description {
+	font-size: 12px;
+}
+
+.section-menu {
+	display: grid;
+	grid-template-columns: auto;
+	grid-gap: 0.1em;
+	padding: 0.1em;
+	position: relative;
+	z-index: 3;
+	background-color: var(--Color3);
+	box-shadow: none;
+	transform: translateY(-100%);
+	transition: all .5s;
+}
+
+.section-menu:hover {
+	transform: translateY(0%);
+ 	box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.2);
+}
+
+.section-box:hover ~ .section-menu {
+	transform: translateY(0%);
+ 	box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.2);
+}
+
+.menu-0 {
+	background-image: url("/goweb/assets/img/bg_menu_0.svg");
+}
+
+.menu-1 {
+	background-image: url("/goweb/assets/img/bg_menu_1.svg");
+}
+
+.menu-2 {
+	background-image: url("/goweb/assets/img/bg_menu_2.svg");
+}
+
+.menu-3 {
+	background-image: url("/goweb/assets/img/bg_menu_3.svg");
+}
+
+.subsection-btn {
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	padding: 0.2em;
+	background-color: #4a4a4a;
+	transition: all .5s;
+}
+
+.subsection-btn:hover {
+	background-color: #5a5a5a;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>Control Panels</title>
+		<link rel="stylesheet" href="styles.css" type="text/css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet"> 
+	</head>
+	<body>
+		<div class="top-bar">
+			<a class="logo" href="index.html">
+				<img src="img/logo1.svg" class="logo" id="logo">
+			</a>
+			<a class="bar-btn" href="index.html">
+				<span>Home</span>
+			</a>
+			<a class="bar-btn" href="index.html">
+				<span>About</span>
+			</a>
+			<a class="bar-btn" href="index.html">
+				<span>Editor</span>
+			</a>
+		</div>
+		<div class="par">
+			<span class="par-title">We are the best in industry...</span>
+			<p class="par-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut tempus purus at lorem. Nulla accumsan, elit sit amet varius semper, nulla mauris mollis quam, tempor suscipit diam nulla vel leo. Etiam posuere lacus quis dolor. Maecenas ipsum velit, consectetuer eu lobortis ut, dictum at dui. Phasellus rhoncus. Duis pulvinar. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Fusce tellus odio, dapibus id fermentum quis, suscipit id erat. Nulla non lectus sed nisl molestie malesuada. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Nulla non lectus sed nisl molestie malesuada. Duis viverra diam non justo.</p>
+		</div>
+		<script type="text/javascript">
+			window.onload = function() {
+				const elem_logo = document.getElementById("logo");
+				
+				elem_logo.addEventListener("mouseenter", startHoverLogo);
+				elem_logo.addEventListener("mouseleave", leaveHoverLogo);
+			};
+			
+			function startHoverLogo() {
+				document.getElementById("logo").src = "img/logo2.svg"; 
+			}
+			
+			function leaveHoverLogo() {
+				document.getElementById("logo").src = "img/logo1.svg"; 
+			}
+		</script>
+	</body>
+</html>

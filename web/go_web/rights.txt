@@ -1,0 +1,2 @@
+chgrp web-dev file
+chmod g=wrx file

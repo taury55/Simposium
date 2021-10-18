@@ -1,0 +1,65 @@
+body {
+	background-color: black;
+	color: white;
+	font-size: 16px;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+.top-bar {
+	background-image: linear-gradient(to bottom, #000 , rgba(255, 255, 255, 0.1) 98.5%, rgba(255, 255, 255, 1) 100%);
+	display: grid;
+	grid-template-columns: 20em repeat(4, 10em);
+	grid-gap: 0.5em;
+}
+
+.bar-btn {
+	height: 100%;
+	width: 100%;
+	font-size: 32px;
+	font-family: 'Source Sans Pro';
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	align-items: center;
+	display: inherit;
+	background-image: radial-gradient(#000, rgba(255, 255, 255, 0.1));
+	transition: 0.5s;
+}
+
+.bar-btn:hover {
+	filter: blur(0.5px);
+	transition: 0.5s;
+	transform: Scale(1.2, 1.2);
+}
+
+.logo {
+	width: 20em;
+	height: 7em;
+	transition: 0.5s;
+}
+
+.logo:hover {
+	transition: 0.5s;
+	transform: Scale(1.05, 1.05);
+}
+
+.par {
+	margin: 30px;
+	width: 60%;
+}
+
+.par-title {
+	font-family: 'Source Sans Pro';
+	font-size: 32px;
+}
+
+.par-text {
+	font-family: 'Roboto';
+	font-size: 16px;
+}
