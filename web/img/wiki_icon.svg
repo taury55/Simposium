@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="64"
+   height="64"
+   viewBox="0 0 16.933333 16.933334"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="wiki_icon.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     inkscape:document-units="mm"
+     showgrid="false"
+     units="px"
+     width="64px"
+     inkscape:zoom="7.0243049"
+     inkscape:cx="29.397927"
+     inkscape:cy="31.960458"
+     inkscape:window-width="1366"
+     inkscape:window-height="744"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <circle
+       style="stroke-width:0.799999;fill:#ffffff;fill-opacity:1;stroke:none"
+       id="path31"
+       cx="8.5"
+       cy="8.5"
+       r="8.5" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:'Roboto Mono for Powerline';-inkscape-font-specification:'Roboto Mono for Powerline';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-14.916933"
+       y="-4.7046342"
+       id="text4608"
+       transform="scale(-1)"><tspan
+         sodipodi:role="line"
+         id="tspan4606"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:'Roboto Mono for Powerline';-inkscape-font-specification:'Roboto Mono for Powerline';stroke-width:0.264583"
+         x="-14.916933"
+         y="-4.7046342">P</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="1.461307"
+       y="12.3243"
+       id="text9804"><tspan
+         sodipodi:role="line"
+         id="tspan9802"
+         style="font-size:10.5833px;stroke-width:0.264583"
+         x="1.461307"
+         y="12.3243">N</tspan></text>
+  </g>
+</svg>

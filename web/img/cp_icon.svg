@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="64"
+   height="64"
+   viewBox="0 0 16.933333 16.933334"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="cp_icon.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     inkscape:document-units="mm"
+     showgrid="false"
+     units="px"
+     width="64px"
+     inkscape:zoom="7.0243049"
+     inkscape:cx="29.397927"
+     inkscape:cy="31.960458"
+     inkscape:window-width="1366"
+     inkscape:window-height="744"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#484848;fill-opacity:1;stroke:none;stroke-width:0.799999"
+       id="rect18687"
+       width="17"
+       height="17"
+       x="0"
+       y="-1.110223e-16"
+       rx="4" />
+    <g
+       id="g37927"
+       transform="translate(-0.73568068,-1.2825675)">
+      <g
+         id="g37915"
+         transform="translate(-3.4116005,1.3159008)">
+        <rect
+           style="fill:#000000;fill-opacity:0.343114;stroke:none;stroke-width:0.799999"
+           id="rect19403-3-6-7"
+           width="6"
+           height="6"
+           x="6.2670002"
+           y="6.2670002"
+           rx="1.5" />
+        <rect
+           style="fill:#00d702;fill-opacity:1;stroke:none;stroke-width:0.799999"
+           id="rect19403"
+           width="6"
+           height="6"
+           x="5.4666667"
+           y="5.4666667"
+           rx="1.5" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;font-family:Oswald;-inkscape-font-specification:Oswald;fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
+           x="8.0274591"
+           y="9.8954134"
+           id="text27107"><tspan
+             sodipodi:role="line"
+             id="tspan27105"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Oswald;-inkscape-font-specification:Oswald;fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
+             x="8.0274591"
+             y="9.8954134">I</tspan></text>
+      </g>
+      <g
+         id="g37909"
+         transform="translate(4.0826283,1.3159008)">
+        <rect
+           style="fill:#000000;fill-opacity:0.343114;stroke:none;stroke-width:0.799999"
+           id="rect19403-3-6"
+           width="6"
+           height="6"
+           x="6.2670002"
+           y="6.2670002"
+           rx="1.5" />
+        <rect
+           style="fill:#d70000;fill-opacity:1;stroke:none;stroke-width:0.799999"
+           id="rect19403-3"
+           width="6"
+           height="6"
+           x="5.4666667"
+           y="5.4666667"
+           rx="1.5" />
+        <text
+           xml:space="preserve"
+           style="font-size:3.52777px;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
+           x="7.5159326"
+           y="9.8918858"
+           id="text30411"><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Oswald;-inkscape-font-specification:Oswald;fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
+             x="7.5159326"
+             y="9.8918858"
+             id="tspan30985">O</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
