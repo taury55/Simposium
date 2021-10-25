@@ -51,3 +51,76 @@
 	margin: auto;
 	position: relative;
 }
+
+.table {
+	position: relative;
+	margin: 8em auto 0 auto;
+	background-color: #97b3da;
+	width: 60em;
+	height: 30em;
+	border-radius: 15em;
+	box-shadow: 0.5em 0.5em 0.2em rgba(0,0,0,0.2);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.center-cash {
+	font-size: 24px;
+	font-weight: bold;
+	color: white;
+	width: 5em;
+	height: 1.5em;
+	background-color: #445c7d;
+	border-radius: 0.5em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	filter: opacity(0.8);
+	margin: 0 auto 1em auto;
+}
+
+.players {
+	position: fixed;
+	width: 0;
+	height: 0;
+}
+
+.player {
+	display: inline-flex;
+	transform-origin: center;
+}
+
+.player-0 {
+	position: absolute;
+	right: 15em;
+	transform: rotate(35deg);
+	bottom: -10em;
+}
+
+.player-1 {
+	position: absolute;
+	right: 15em;
+	transform: rotate(-35deg);
+	bottom: 5em;
+}
+
+.player-2 {
+	position: absolute;
+	right: -5em;
+	bottom: 7em;
+}
+
+.player-3 {
+	position: absolute;
+	left: 15em;
+	transform: rotate(35deg);
+	bottom: 5em;
+}
+
+.player-4 {
+	position: absolute;
+	left: 15em;
+	transform: rotate(-35deg);
+	bottom: -10em;
+}
